@@ -1,17 +1,12 @@
 package homework_one;
 
-public abstract class HotDrink extends Product{
+public class BottleOfWater extends Product {
     private int volume;
-    private int temperature;
 
-    public HotDrink(String name, double cost) {
+
+    public BottleOfWater(String name, double cost, int volume) {
         super(name, cost);
-    }
-
-    public HotDrink(String name, int volume, int temperature) {
-        super(name);
         this.volume = volume;
-        this.temperature = temperature;
     }
 
     public int getVolume() {
@@ -36,20 +31,12 @@ public abstract class HotDrink extends Product{
         if (this == o) {
             return true;
         }
-        if (!(o instanceof HotDrink that)) {
+        if (!(o instanceof BottleOfWater that)) {
             return false;
         }
 
         return super.getName().equalsIgnoreCase(that.getName())
                 && super.getCost() == that.getCost()
                 && getVolume() == that.getVolume();
-    }
-
-    public int getTemperature() {
-        return temperature;
-    }
-
-    public void setTemperature(int temperature) {
-        this.temperature = temperature;
     }
 }
