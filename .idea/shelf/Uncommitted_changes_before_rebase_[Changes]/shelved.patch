@@ -1,0 +1,30 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/andy test.iml\r\n/.gitignore\r\n/.idea\r\n/.idea/.gitignore\r\n# Default ignored files\r\n/shelf/\r\n# Editor-based HTTP Client requests\r\n/httpRequests/\r\n# Datasource local storage ignored files\r\n/dataSources/\r\n/dataSources.local.xml\r\n.gitignore\r\nmisc.xml\r\nmodules.xml\r\nuiDesigner.xml\r\nvcs.xml\r\nworkspace.xml\r\n*.iml
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision d0d24623f6bd52ba9efcb177363cc1ad32ec835c)
++++ b/.gitignore	(date 1695478294165)
+@@ -1,5 +1,4 @@
+ /andy test.iml
+-/.gitignore
+ /.idea
+ /.idea/.gitignore
+ # Default ignored files
+@@ -9,10 +8,4 @@
+ # Datasource local storage ignored files
+ /dataSources/
+ /dataSources.local.xml
+-.gitignore
+-misc.xml
+-modules.xml
+-uiDesigner.xml
+-vcs.xml
+-workspace.xml
+-*.iml
+\ No newline at end of file
++/.gitignore
+\ No newline at end of file
