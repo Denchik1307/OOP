@@ -1,3 +1,18 @@
 /andy test.iml
 /.gitignore
 /.idea
+/.idea/.gitignore
+# Default ignored files
+/shelf/
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+.gitignore
+misc.xml
+modules.xml
+uiDesigner.xml
+vcs.xml
+workspace.xml
+*.iml
